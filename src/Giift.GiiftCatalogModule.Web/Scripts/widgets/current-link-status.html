@@ -1,0 +1,10 @@
+<div>
+    <div id="valuePlaceHolder">
+        <label class="form-label __switch">
+            <input type="checkbox" ng-model="currentEntity.blade.currentEntity[0].isItemRelationActive" ng-disabled="currentEntity.isReadOnly" class="ng-pristine ng-untouched ng-valid">
+            <div class="table-t">{{row}}</div>
+            <span class="table-t" ng-bind="{{row}}">{{row}}</span>
+            <span class="switch" ng-class="{disabled: currentEntity.isReadOnly}"></span>
+        </label>
+    </div>
+</div>

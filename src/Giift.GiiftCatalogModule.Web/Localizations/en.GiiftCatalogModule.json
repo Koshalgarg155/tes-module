@@ -1,0 +1,34 @@
+{
+    "catalog": {
+      "commands": {
+        "update-link-status":  "Update Link Status"
+        
+      }
+    },
+  "GiiftCatalogModule": {
+    "blades": {
+      "hello-world": {
+        "title": "Hello world blade"
+      },
+    }
+  },
+  "permissions": {
+    "GiiftCatalogModule:access": "Open GiiftCatalogModule menu",
+    "GiiftCatalogModule:create": "Create GiiftCatalogModule related data",
+    "GiiftCatalogModule:read": "View GiiftCatalogModule related data",
+    "GiiftCatalogModule:update": "Update GiiftCatalogModule related data",
+    "GiiftCatalogModule:delete": "Delete GiiftCatalogModule related data"
+  },
+  "settings": {
+    "GiiftCatalogModule": {
+      "GiiftCatalogModuleEnabled": {
+        "title": "GiiftCatalogModule Enabled",
+        "description": "GiiftCatalogModule Enabled setting"
+      },
+      "GiiftCatalogModulePassword": {
+        "title": "GiiftCatalogModule Password",
+        "description": "GiiftCatalogModule Password setting"
+      }
+    }
+  }
+}

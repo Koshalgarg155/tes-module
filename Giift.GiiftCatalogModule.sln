@@ -1,0 +1,64 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D379E9EA-CBFD-4F48-AC25-81D1A23AE340}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Giift.GiiftCatalogModule.Web", "src\Giift.GiiftCatalogModule.Web\Giift.GiiftCatalogModule.Web.csproj", "{1899B8E1-B5D1-4911-8F37-E76DC1A2F47C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Giift.GiiftCatalogModule.Data", "src\Giift.GiiftCatalogModule.Data\Giift.GiiftCatalogModule.Data.csproj", "{FF3EC400-9D79-46E6-B8A1-228A3EF248CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Giift.GiiftCatalogModule.Core", "src\Giift.GiiftCatalogModule.Core\Giift.GiiftCatalogModule.Core.csproj", "{C5C84435-AB71-4AC8-80F5-FCD613774EE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BA60A033-43D6-43D8-AD63-4503072E62B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Giift.GiiftCatalogModule.Tests", "tests\Giift.GiiftCatalogModule.Tests\Giift.GiiftCatalogModule.Tests.csproj", "{82948F9F-143C-4F37-BE5F-2C21E4B22C51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45B8E3A0-4842-4428-A1C3-713A5F612B21}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		module.ignore = module.ignore
+		README.md = README.md
+		Giift.GiiftCatalogModule.sln.DotSettings = Giift.GiiftCatalogModule.sln.DotSettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1899B8E1-B5D1-4911-8F37-E76DC1A2F47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1899B8E1-B5D1-4911-8F37-E76DC1A2F47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1899B8E1-B5D1-4911-8F37-E76DC1A2F47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1899B8E1-B5D1-4911-8F37-E76DC1A2F47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF3EC400-9D79-46E6-B8A1-228A3EF248CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3EC400-9D79-46E6-B8A1-228A3EF248CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3EC400-9D79-46E6-B8A1-228A3EF248CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3EC400-9D79-46E6-B8A1-228A3EF248CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C84435-AB71-4AC8-80F5-FCD613774EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C84435-AB71-4AC8-80F5-FCD613774EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C84435-AB71-4AC8-80F5-FCD613774EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C84435-AB71-4AC8-80F5-FCD613774EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82948F9F-143C-4F37-BE5F-2C21E4B22C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82948F9F-143C-4F37-BE5F-2C21E4B22C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82948F9F-143C-4F37-BE5F-2C21E4B22C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82948F9F-143C-4F37-BE5F-2C21E4B22C51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1899B8E1-B5D1-4911-8F37-E76DC1A2F47C} = {D379E9EA-CBFD-4F48-AC25-81D1A23AE340}
+		{FF3EC400-9D79-46E6-B8A1-228A3EF248CA} = {D379E9EA-CBFD-4F48-AC25-81D1A23AE340}
+		{C5C84435-AB71-4AC8-80F5-FCD613774EE3} = {D379E9EA-CBFD-4F48-AC25-81D1A23AE340}
+		{82948F9F-143C-4F37-BE5F-2C21E4B22C51} = {BA60A033-43D6-43D8-AD63-4503072E62B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94C01772-8411-4126-80A3-CD814DB7307E}
+	EndGlobalSection
+EndGlobal

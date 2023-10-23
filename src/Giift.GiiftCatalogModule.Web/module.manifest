@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>Giift.GiiftCatalogModule</id>
+  <version>3.200.0</version>
+  <version-tag>test.1</version-tag>
+  <platformVersion>3.253.1</platformVersion>
+  <title>Giift GiiftCatalogModule module</title>
+  <description>Giift GiiftCatalogModule module</description>
+  <authors>
+    <author>Giift</author>
+  </authors>
+  <owners>
+    <owner>Giift</owner>
+  </owners>
+  <projectUrl>https://github.com/Giift/vc-module-giift-catalog-module</projectUrl>
+  <iconUrl>Modules/$(Giift.GiiftCatalogModule)/Content/logo.png</iconUrl>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  <releaseNotes>First version.</releaseNotes>
+  <copyright>Copyright © 2023 Giift. All rights reserved</copyright>
+  <tags>extension module</tags>
+  <assemblyFile>Giift.GiiftCatalogModule.Web.dll</assemblyFile>
+  <moduleType>Giift.GiiftCatalogModule.Web.Module, Giift.GiiftCatalogModule.Web</moduleType>
+  <dependencies>
+    <dependency id="VirtoCommerce.Catalog" version="3.230.3" />
+  </dependencies>
+  <useFullTypeNameInSwagger>false</useFullTypeNameInSwagger>
+</module>
